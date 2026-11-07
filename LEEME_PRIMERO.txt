@@ -1,0 +1,45 @@
+======================================================================
+  GUÍA RÁPIDA DE INSTALACIÓN — SISTEMA POS CENTRALIZADO
+  PC de Mostrador + Celulares y Tablets en Tiempo Real
+======================================================================
+
+Si esta computadora nunca tuvo el sistema instalado, seguí estos pasos:
+
+----------------------------------------------------------------------
+PASO 1: INSTALAR PYTHON (Solo una vez)
+----------------------------------------------------------------------
+Si tu computadora todavía no tiene Python instalado:
+1. Hacé doble clic en el archivo:
+   "1_Instalar_Python.bat"  (o en "Instalar_Python_Primero.exe")
+2. MUY IMPORTANTE: En la primera ventana que se abre, marcá la casilla abajo:
+   [X] "Add python.exe to PATH"
+3. Hacé clic en "Install Now".
+4. Al terminar, tocá "Close".
+
+----------------------------------------------------------------------
+PASO 2: INICIAR EL SISTEMA
+----------------------------------------------------------------------
+1. Hacé doble clic en:
+   "Iniciar_Servidor_Red.bat"
+2. El sistema abrirá automáticamente tu navegador en la pantalla del POS.
+   (No hace falta escribir ninguna dirección).
+
+----------------------------------------------------------------------
+PASO 3: CONECTAR LOS CELULARES DE LOS EMPLEADOS
+----------------------------------------------------------------------
+1. Asegurate de que los celulares estén conectados al MISMO Wi-Fi que la PC.
+2. Abrí la cámara del celular y apuntá al CÓDIGO QR que aparece en la pantalla
+   de la computadora (abajo del formulario de ingreso o en el botón "Conectar Celular").
+3. ¡Listo! El celular se abre en el sistema y vende sincronizado con la PC.
+
+----------------------------------------------------------------------
+¿QUERÉS QUE EL SISTEMA ARRANQUE SOLO AL PRENDER LA PC CADA MAÑANA?
+----------------------------------------------------------------------
+Hacé doble clic en el archivo:
+   "Iniciar_Con_Windows.bat"
+
+Desde ese momento, cada mañana al encender la computadora del local,
+el servidor se levantará solo y abrirá el navegador listo para cobrar,
+sin que tengas que acordarte de abrir nada.
+(Si algún día querés desactivarlo, hacés doble clic en "Quitar_Inicio_Con_Windows.bat").
+======================================================================
